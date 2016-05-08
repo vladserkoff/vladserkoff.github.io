@@ -1,0 +1,38 @@
+img,
+video {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 4px solid black;
+}
+
+.noborder {
+    border-left: none;
+    border-right: none;
+}
+
+body {
+    margin: 0;
+    background-color: black
+}
+
+.col {
+    width: 50%;
+    float: left;
+}
+
+.row {
+    width: 100%;
+}
+
+.flipped {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
